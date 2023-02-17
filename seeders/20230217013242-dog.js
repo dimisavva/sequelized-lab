@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-   const date = new Date()
+    const date = new Date()
     await queryInterface.bulkInsert('Dogs', [{
       name: 'Buddy',
       toy: 'Rubber Ducky',
